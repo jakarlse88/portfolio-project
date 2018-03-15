@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #253237;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #253237;
+}
+
+/*
+ *
+ * Body
+ *
+ */
+
+.body-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-bottom: 4px solid #c2dfe3;
+  min-height: 15vh;
+  margin: 0 0 2em;
+}
+
+.header-logo {
+  width: 60px;
+  height: 60px;
+  margin: auto 0;
+}
+
+.header-text {
+  margin: auto 0 auto auto;
+}
+
+.header-h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.header-p {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*
+ *
+ * Primary image
+ *
+ */
+
+.main-display {
+  margin: 0 auto 2em;
+  height: 75%;
+  overflow: hidden;
+ }
+
+.primary-img {
+   max-width: 100%;
+ }
+
+ /*
+  *
+  * Featured work
+  *
+  */
+
+.featured-work {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+
+.featured-work-header {
+   color: #5c6b73;
+   font-size: 2em;
+   margin: 0 0 .5em;
+ }
+
+.featured-subsection {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ }
+
+.featured-dragon {
+   order: 0;
+   max-width: calc((100% - 30px) / 3);
+   padding: 0 15px 0 0;
+ }
+
+.featured-torii {
+   order: 0;
+   max-width: calc((100% - 30px) / 3);
+
+padding: 0 15px 0 0;
+ }
+
+.featured-umbrella {
+   order: 0;
+   max-width: calc((100% - 30px) / 3);
+   padding: 0;
+ }
+
+.featured-img {
+    max-width: 100%;
+}
+
+.featured-work-title {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  margin: .3em 0 0;
+}
+
+.featured-work-link {
+    text-align: center;
+}
+
+.featured-work-link a {
+  text-decoration: none;
+  color: #7d97ad;
+  font-size: .8em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.footer {
+  width: 100%;
+  margin: 2em 0;
+  border-top: 4px solid #c2dfe3;
+}
+
+.footer p {
+  margin: 1em 0 0;
+  text-align: center;
+  font-size: .7em;
+  color: #c2dfe3;
+  font-family: 'Source Code Pro', monospace;
+}

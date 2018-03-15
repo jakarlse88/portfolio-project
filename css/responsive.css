@@ -1,0 +1,158 @@
+/* iPad-size breakpoint */
+@media screen and (max-width: 768px) {
+  /*
+   *
+   * Header
+   *
+   */
+
+  .header {
+    min-height: 10vh;
+    line-height: 1;
+  }
+
+  .header-text {
+    margin: auto 0 auto auto;
+  }
+
+  .header-h1 {
+    font-size: 3.5em;
+  }
+
+  .header-p {
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  /*
+   *
+   * Primary image
+   *
+   */
+
+  .main-display {
+    height: 30vh;
+  }
+
+  /*
+   *
+   * Featured work
+   *
+   */
+
+   .featured-subsection {
+     flex-direction: column;
+   }
+
+   .featured-dragon {
+     order: 0;
+     max-width: 100%;
+     margin: 0 auto 2em;
+     padding: 0;
+   }
+
+   .featured-torii {
+     order: 1;
+     max-width: 100%;
+     margin: 0 auto 2em;
+     padding: 0;
+   }
+
+   .featured-umbrella {
+     order: 2;
+     max-width: 100%;
+     margin: 0 auto;
+     padding: 0;
+   }
+}
+
+/* Minor breakpoint for improved header/project
+title display */
+@media screen and (max-width: 550px) {
+  /*
+   *
+   * Header
+   *
+   */
+
+   .header {
+     margin: 1em 0;
+     padding: 0 0 1em;
+   }
+
+   .header-text {
+     margin: auto 0 auto auto;
+   }
+
+   .header-h1 {
+     font-size: 2.4em;
+   }
+
+   .header-p {
+     font-size: 1em;
+   }
+
+   /*
+    *
+    * Featured work
+    *
+    */
+
+    .featured-work-title {
+      font-size: 1.5em;
+    }
+}
+
+/* Nexus 5-size breakpoint */
+@media screen and (max-width: 412px) {
+  /*
+   *
+   * Header
+   *
+   */
+
+   .header {
+     margin: 1em 0;
+     padding: 0 0 1em;
+   }
+
+   .header-text {
+     margin: auto 0 auto auto;
+   }
+
+   .header-h1 {
+     font-size: 2em;
+   }
+
+   .header-p {
+     font-size: 1.2em;
+   }
+
+   /*
+    *
+    * Featured work
+    *
+    */
+
+    .featured-subsection {
+      flex-direction: column;
+    }
+
+    .featured-dragon {
+      order: 0;
+      max-width: 100%;
+      margin: 0 auto 2em;
+    }
+
+    .featured-torii {
+      order: 1;
+      max-width: 100%;
+      margin: 0 auto 2em;
+    }
+
+    .featured-umbrella {
+      order: 2;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+}
